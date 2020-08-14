@@ -2,16 +2,20 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="149" started-at="2020-08-14T18:42:50Z" finished-at="2020-08-14T18:42:50Z">
+  <suite name="Default suite" duration-ms="14252" started-at="2020-08-14T20:18:53Z" finished-at="2020-08-14T20:19:07Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="149" started-at="2020-08-14T18:42:50Z" finished-at="2020-08-14T18:42:50Z">
-      <class name="pages.NewTest">
-        <test-method status="PASS" signature="f()[pri:0, instance:pages.NewTest@1810399e]" name="f" duration-ms="32" started-at="2020-08-14T18:42:50Z" finished-at="2020-08-14T18:42:50Z">
+    <test name="Default test" duration-ms="14252" started-at="2020-08-14T20:18:53Z" finished-at="2020-08-14T20:19:07Z">
+      <class name="pages.Login">
+        <test-method status="PASS" signature="login()[pri:0, instance:pages.Login@3ffc5af1]" name="login" duration-ms="14161" started-at="2020-08-14T20:18:53Z" finished-at="2020-08-14T20:19:07Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- pages.NewTest -->
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pages.Login@3ffc5af1]" name="tearDown" is-config="true" duration-ms="2208" started-at="2020-08-14T20:19:07Z" finished-at="2020-08-14T20:19:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pages.Login -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

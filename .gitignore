@@ -1,3 +1,4 @@
 /target/
 /bin/
-/ExtentReports//test-output/
+/ExtentReports/
+test-output/
