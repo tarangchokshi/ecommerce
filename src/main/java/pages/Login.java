@@ -2,7 +2,7 @@ package pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.testng.annotations.*;
+import org.testng.annotations.Test;
 
 
 public class Login extends Base{
@@ -28,7 +28,7 @@ public class Login extends Base{
 		WebElement loginURL = driver.findElement(By.xpath("//a[@class='login'][contains(.,'Sign in')]"));
 		loginURL.click();
 		
-		WebElement email = driver.findElement(By.xpath("//*[@id='email']"));
+		WebElement email = driver.findElement(By.xpath("//*[@id='email']"));//*[@id="email"]
 		email.sendKeys("ifour.tarang@gmail.com");
 
 		WebElement password = driver.findElement(By.xpath("//*[@id='passwd']"));
